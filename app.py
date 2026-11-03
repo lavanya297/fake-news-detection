@@ -25,7 +25,7 @@ FEATURES = [
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
-        "message": "Fake News Detection API is running"
+        "message": "new model deployed successfully"
     })
 
 
